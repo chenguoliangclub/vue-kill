@@ -6,6 +6,8 @@ import router from './router'
 import ElementUi from 'element-ui'
 import Axios from "axios"
 import 'element-ui/lib/theme-chalk/index.css'
+
+Axios.defaults.withCredentials = true
 Vue.config.productionTip = false
 Vue.use(ElementUi)
 Vue.prototype.$message = ElementUi.Message;

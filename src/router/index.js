@@ -10,18 +10,13 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Policy',
-      component: Policy
+      name: 'Index',
+      component: Index
     },
     {
       path: '/pay',
       name: 'Pay',
       component: Pay
-    },
-    {
-      path: '/index',
-      name: 'Index',
-      component: Index
     }
   ]
 })
